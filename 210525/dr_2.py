@@ -9,8 +9,8 @@ def numbers_is_valid(number):
     if not number or numbers_as_set - numbers:
         return False
 
-    for dot in required_symbol:
-        check = number.count(dot)
+    for tochka in required_symbol:
+        check = number.count(tochka)
         if check != 1:
             return False
 

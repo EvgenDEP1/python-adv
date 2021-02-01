@@ -12,8 +12,8 @@ def date_is_valid(date):
     if not date or date_as_set - date_n:
         return False
 
-    for dot in required_date:
-        check = date.count(dot)
+    for tochka in required_date:
+        check = date.count(tochka)
         if check != 2:
             return False
 
