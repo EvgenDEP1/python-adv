@@ -3,8 +3,8 @@ import re
 
 
 # RE_PROVERKA = re.compile(r'\b[А-ЯЁ]?[а-яё]{2,}\b')
-RE_PROVERKA = re.compile(r'\b[А-ЯЁ]?[а-яё]+\b')
-
+# RE_PROVERKA = re.compile(r'\b[А-ЯЁ]?[а-яё]+\b')
+RE_PROVERKA = re.compile(r'[а-яА-Я]+')
 # RE_PROVERKA = re.compile(r'[^а-яА-Я ]')
 f = open('text.txt', 'r', encoding='utf-8')
 text = f.read()
