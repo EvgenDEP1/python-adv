@@ -1,4 +1,4 @@
-def my_dicorator(func):
+def my_decorator(func):
     def text_len(str_len):
         print(f"Длина строки = {len(str_len)} символов")
         return func(str_len)
@@ -8,7 +8,7 @@ def my_dicorator(func):
     return text_len
 
 
-@my_dicorator
+@my_decorator
 def me_function_text(text_str):
     return text_str
 
