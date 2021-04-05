@@ -2,7 +2,6 @@ from django.contrib.auth.models import User
 from django.db import models
 
 
-
 class Dialog(models.Model):
     created = models.DateTimeField(verbose_name='отправлено',
                                    auto_now_add=True,

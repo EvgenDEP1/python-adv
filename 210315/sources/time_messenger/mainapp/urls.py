@@ -4,5 +4,7 @@ import mainapp.views as mainapp
 app_name = 'mainapp'
 
 urlpatterns = [
-    path('', mainapp.index),
+    path('', mainapp.index, name="index"),
+
+    path('dialog/<int:dialog_id>/', mainapp.dialog, name='dialog'),
 ]
