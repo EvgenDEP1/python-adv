@@ -39,7 +39,7 @@ class DialogMemebers(models.Model):
                                related_name="dialogs")
     role = models.CharField(verbose_name='роль',
                             choices=ROLE_CHOICES,
-                            max_length=255,
+                            max_length=64,
                             db_index=True)
 
     class Meta:
