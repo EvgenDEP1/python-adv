@@ -9,4 +9,3 @@ docker run --rm -d \
     -v $(pwd)/data:/home/time_messenger/data \
     -p 8012:8000 \
     time_messenger
-
